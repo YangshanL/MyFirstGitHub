@@ -12,7 +12,7 @@ class excel():
         for i in range(self.nrows):
             data = self.table.row_values(i)
             print(data)
-            print(type(data[0]),type(data[1]))
+            print(type(data[0]), type(data[1]))
         # newFile = open(self.newPath, 'w')
         pass
 
